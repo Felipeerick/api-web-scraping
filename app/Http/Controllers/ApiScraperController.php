@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 use Weidner\Goutte\GoutteFacade;
 
-use function PHPUnit\Framework\returnSelf;
-
 class ApiScraperController extends Controller
 {
     private $data = array();
